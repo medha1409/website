@@ -1,0 +1,1 @@
+[06-Jun-2020 00:20:40 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/ID3/module.audio.ac3.php on line 18

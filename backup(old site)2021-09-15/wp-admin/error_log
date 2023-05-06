@@ -1,0 +1,21 @@
+[16-Mar-2020 01:05:57 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home3/laughiu3/public_html/medhagupta/wp-includes/class-wp-block-parser.php on line 417
+[16-Mar-2020 01:05:57 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in /home3/laughiu3/public_html/medhagupta/wp-includes/class-wp-block-parser.php on line 489
+[16-Mar-2020 01:05:57 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/laughiu3/public_html/medhagupta/wp-content/themes/mythos/lib/menu/admin-megamenu-walker.php on line 95
+[16-Mar-2020 01:05:57 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home3/laughiu3/public_html/medhagupta/wp-includes/class-wp-block-parser.php on line 417
+[16-Mar-2020 01:05:57 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in /home3/laughiu3/public_html/medhagupta/wp-includes/class-wp-block-parser.php on line 489
+[16-Mar-2020 01:05:57 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/laughiu3/public_html/medhagupta/wp-content/themes/mythos/lib/menu/admin-megamenu-walker.php on line 95
+[18-Mar-2020 19:04:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/laughiu3/public_html/medhagupta/wp-includes/class-wp-image-editor-imagick.php on line 355
+[13-Nov-2020 14:40:27 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 05:10:10 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:02 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:07 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:27 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:28 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:28 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:28 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:29 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Nov-2020 17:53:30 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Nov-2020 05:02:00 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Nov-2020 05:02:02 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Nov-2020 05:02:03 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Nov-2020 14:33:29 UTC] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0

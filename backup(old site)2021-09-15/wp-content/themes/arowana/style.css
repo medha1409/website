@@ -1,0 +1,289 @@
+/*
+Theme Name: Arowana
+Theme URI: https://www.nayrathemes.com/arowana-free/
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: Arowana is a Fast and lightweight, easily customizable and multi-purpose WordPress theme with the main focus on smooth user experience to make your site stand out from the crowd. Arowana comes with everything you could ever need to build an amazing website. Arowana is the perfect theme for your business! View the demo of Arowana Pro https://nayrathemes.com/demo/pro/arowana
+Template: startkit
+Version: 1.0.3
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: arowana
+Slug: arowana
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/*
+==========================================
+    Navigation
+==========================================
+*/
+.normal-h {
+    background: #fff !important;
+    background-image: none;
+    min-height: 80px !important;
+    -webkit-box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    -ms-box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    -o-box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+}
+
+@media only screen and (min-width:1550px) {
+	.normal-h {
+        min-height: 80px !important;
+        padding: 0px;
+    }
+}
+
+#features-list span.icon i, #features-list h4, #features-list p {
+    color: #fff !important;
+}
+
+/*
+===================================================================================
+    Service
+===================================================================================
+*/
+.servicepage-item {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px 10px;
+}
+.service-icon i {
+    color: #fff;
+}
+
+#services .service-icon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    margin: 0 auto 20px;
+}
+
+.servicepage-item .service-icon i {
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.servicepage-item h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.servicepage-item p {
+    margin-bottom: 10px;
+}
+
+.servicepage-item a {
+    font-weight: 500;
+}
+
+
+#services .service-icon {
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -webkit-transition: background 0.2s, -webkit-transform ease-out 0.1s;
+    transition: background 0.2s, -webkit-transform ease-out 0.1s;
+    transition: transform ease-out 0.1s, background 0.2s;
+    transition: transform ease-out 0.1s, background 0.2s, -webkit-transform ease-out 0.1s;
+    position: relative;
+    z-index: 1;
+}
+
+#services .service-icon:after {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-sizing: content-box;
+}
+
+#services .servicepage-item:hover .service-icon {
+    -webkit-transform: scale(0.93);
+    transform: scale(0.93);
+    color: #fff;
+}
+
+#services .servicepage-item:hover .service-icon:after {
+    left: 50%;
+    top: 50%;
+    display: block;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+
+/*
+===================================================================================
+    Blog
+===================================================================================
+*/
+
+
+#recent-blog .post-content {
+    border-bottom: 1px solid #d3d6db;
+}
+
+.post-content .content {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+#recent-blog .post-content .continue-reading {
+    font-size: 14px;
+}
+
+#recent-blog ul.meta-info li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.blog-post .post-thumb {
+    margin-bottom: 0px;
+}
+
+#recent-blog ul.meta-info {
+    padding: 15px 20px;
+}
+#recent-blog ul.meta-info li i {
+    margin-left: 10px;
+}
+
+.slide-content {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+.slide-content h4 {
+    border: 1px solid #fff;
+    padding: 0 15px;
+    margin-bottom: 25px;
+	background-color: #ee591f;
+}
+
+.arowana-btn .boxed-btn {
+    font-size: 15px;    
+    color: #ffffff; 
+    position: relative;
+    padding: 0 25px !important;
+    line-height: 40px;
+	z-index: 0;
+	cursor: pointer;
+}
+
+.arowana-btn .slide-content .boxed-btn {
+	margin: 10px;
+}
+
+.arowana-btn .search-form .boxed-btn {
+	line-height: 50px;
+}
+
+
+/* Arowana BTN Style */
+
+#subscribe-form .boxed-btn {
+    margin: 0;
+}
+
+.arowana-btn .boxed-btn:after {
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 0 0 0 6px;
+    box-shadow: 0 0 0 6px;
+    border-radius: 1px;
+	color: #ee591f;
+    opacity: .5;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.arowana-btn .boxed-btn:hover:after,
+.arowana-btn .boxed-btn:focus:after {
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+.arowana-btn .slide-content.slide-bg h4 {
+    color: #fff;
+}
+
+.arowana-btn .boxed-btn, .arowana-btn .slide-bg h4, .arowana-btn .dots-vertical .owl-dot.active .tp-bullet-inner, .arowana-btn .boxed-btn:hover, .arowana-btn .mc4wp-form input[type="submit"]:hover {
+	color: #fff;
+    background: #ee591f !important;
+}
+
+/* Scroll Up */
+
+.scrollup {
+	z-index: 888;
+	-webkit-transition: .3s;
+	transition: .3s;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .5);
+}
+.scrollup:hover i {
+	-webkit-animation: slideUp 1s ease-in-out infinite;
+	animation: slideUp 1s ease-in-out infinite;
+}
+.scrollup i {
+    color: #fff;
+}
+@-webkit-keyframes slideUp {
+  0%,
+  100% {
+	-webkit-transform: translate(0, 10px);
+			transform: translate(0, 10px);
+  }
+
+  50% {
+	-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+  }
+}
+
+@keyframes slideUp {
+  0%,
+  100% {
+	-webkit-transform: translate(0, 10px);
+			transform: translate(0, 10px);
+  }
+
+  50% {
+	-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+  }
+}

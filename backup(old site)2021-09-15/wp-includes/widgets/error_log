@@ -1,0 +1,68 @@
+[03-Aug-2021 19:37:24 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[04-Aug-2021 02:51:15 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[04-Aug-2021 16:43:24 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[16-Aug-2021 11:02:17 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[19-Aug-2021 14:17:15 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Aug-2021 21:44:53 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[28-Aug-2021 16:27:42 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[31-Aug-2021 21:36:31 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[03-Sep-2021 12:01:23 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[06-Sep-2021 07:23:11 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[07-Sep-2021 00:54:12 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[07-Sep-2021 14:19:07 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[09-Sep-2021 13:47:28 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[10-Sep-2021 22:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[11-Sep-2021 03:15:52 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[11-Sep-2021 11:43:59 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17
+[14-Sep-2021 09:13:34 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-includes/widgets/class-wp-widget-block.php on line 17

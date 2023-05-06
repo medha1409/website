@@ -1,0 +1,502 @@
+/*=========================================
+    Primary Color
+=========================================*/
+
+/* 00. Theme Reset Css */
+.section-header h2 {
+    color: #0088CC ;
+}
+
+.section-header h2:after {
+    background: #0088CC ;    
+}
+
+.boxed-btn {
+    background: #0088CC ;    
+}
+
+.boxed-btn:hover, .breadcrumb-nav li a:hover {
+    color: #0088CC ;    
+}
+
+.startkit-btn .boxed-btn,
+.startkit-btn .slide-bg h4,
+.startkit-btn .boxed-btn:hover, .startkit-btn .mc4wp-form input[type="submit"]:hover,
+.startkit-btn .posts-navigation .nav-links a:hover {
+    background-color: #0088CC !important
+}
+
+/* 02. Header Top */
+#header-top {
+    background: #0088CC ;    
+}
+
+/* 03. Custom Navigation */
+.main-menu ul li.active a,
+.main-menu ul li:hover > a,
+.main-menu ul li.focus > a {
+    color: #0088CC  !important;
+}
+
+.main-menu ul li ul li:hover:before {
+    color: #0088CC ;
+}
+
+.main-menu ul li.active ul li a:hover { 
+    color: #0088CC  !important;
+}
+
+.main-menu ul li a:after,
+.main-menu ul li a:before {
+    border-color: #0088CC  !important;
+}
+
+
+.mean-container a.meanmenu-reveal {
+   border-color: #0088CC !important;
+    color: #0088CC !important;
+}
+
+.mean-container a.meanmenu-reveal span {
+    background-color: #0088CC !important;
+}
+
+.mean-container .mean-nav {
+    background: #0088CC !important;    
+}
+
+.search-button a {
+    color: #0088CC ;
+}
+
+a.book-now {
+    border-color; #0088CC ;
+    color: #0088CC ;    
+}
+
+a.book-now:hover,
+a.book-now:focus {
+    background: #0088CC ;
+}
+
+.search-button a.nav-link {
+    color: #0088CC ;
+}
+
+#search {
+    background: #0088CC ;    
+}
+
+/* Header slider */
+.header-single-slider h4 {
+    color: #0088CC;
+}
+.header-slider .owl-next,
+.header-slider .owl-prev {
+    color: #0088CC ;    
+}
+
+.header-slider .owl-next, .header-slider .owl-prev {
+    border: solid 1px #0088CC;
+}
+
+.header-slider .owl-next:hover, .header-slider .owl-prev:hover {
+    background: #0088CC !important;
+}
+/* 05. Features */
+
+.features-list-item .icon i {
+    color: #0088CC ;
+}
+
+.view-more {
+    color: #0088CC ;
+}
+
+/* 07. Features */
+.features-item:before {    
+    background: #0088CC ;
+}
+
+.features-item:hover i {
+    color: #0088CC ;
+}
+
+/* 08. Services */
+.service-icon i {
+    color: #0088CC ;
+}
+
+.services-item .service-icon:after {
+    background: #0088CC ;    
+}
+
+.services-item:hover h4 {
+    color: #0088CC ;
+}
+
+/* Testimonial */
+
+.single-testimonial h4 {
+    color: #0088CC ;
+}
+
+.single-testimonial h4:after {
+    background: #0088CC ;    
+}
+
+
+/* Recent Blog */
+#recent-blog .post-thumbnail:after {
+    background: #0088CC ;    
+}
+
+#recent-blog .blog-post:hover .read-more-link,
+.blog-post:hover .post-content .post-title a {
+    color: #0088CC ;
+}
+
+#footer-copyright {
+    background: #0088CC ;
+}
+
+.scrollup {
+    background-color: #0088CC ;
+    border-color: #0088CC ;
+
+}
+
+.scrollup:hover,
+.scrollup:focus {
+    color: #0088CC ;
+    border-color: #0088CC ;
+}
+
+/*------------------------
+    Blog
+-------------------------*/
+.blog-post:hover h4.post-title a {
+    color: #0088CC  !important;
+}
+
+.post-content .continue-reading:hover {
+    color: #0088CC  !important;
+}
+
+#blog-content ul.meta-info li:hover i,
+#blog-content ul.meta-info li a:hover {
+    color: #0088CC ;
+}
+
+.blog-post .post-thumb {
+    background: #0088CC ;    
+}
+
+.post-new-comment input,
+.post-new-comment textarea {
+    border-color: #0088CC ;
+}
+
+.single-blog-area ul.share-icon li a:hover {
+    color: #0088CC ;
+}
+
+/* Widget Color */
+
+.widget_about a:hover {
+    color: #0088CC ;
+}
+
+.widget_pages ul li a:hover {
+    color: #0088CC ;
+}
+
+.sidebar .widget_search input[type=button],
+.sidebar .widget_search input[type=submit] {
+    background: #0088CC ;
+}
+
+.sidebar .widget_recent_entries ul li a:hover,
+.sidebar .widget_recent_comments ul li a:hover,
+.sidebar .widget_archive ul li a:hover,
+.sidebar .widget_categories ul li a:hover,
+.sidebar .widget_meta ul li a:hover {
+	color: #0088CC ;
+}
+
+.footer-sidebar .widget_search input[type=button],
+.footer-sidebar .widget_search input[type=submit],
+.footer-sidebar .widget_search input[type=submit]:hover {
+    background: #0088CC ;
+}
+.footer-sidebar .widget_recent_entries ul li a:hover,
+.footer-sidebar .widget_recent_comments ul li a:hover,
+.footer-sidebar .widget_archive ul li a:hover,
+.footer-sidebar .widget_categories ul li a:hover,
+.footer-sidebar .widget_meta ul li a:hover {
+	color: #0088CC ;
+}
+.recent-post h6:hover {
+    color: #0088CC ;
+}
+
+ul.recent-meta-info li a:hover {
+    color: #0088CC ;
+}
+
+.days li .active {
+    color: #0088CC ;
+    border-color: #0088CC ;
+}
+
+.widget-newsletter .subscribe {
+    color: #0088CC ;
+    border-color: #0088CC ;
+}
+
+.widget-newsletter .subscribe:hover {
+    background: #0088CC ;
+}
+
+
+ul.widget-social li a:hover {
+    color: #0088CC ;
+}
+
+ul.tags li a:hover {    
+    background: #0088CC ;
+}
+em, cite, q {
+    color: #0088CC ;
+}
+a {
+    color: #0088CC ;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+    border: 1px solid #0088CC ;
+}
+table th {
+    background: #0088CC ;
+}
+blockquote {
+    border-left: 5px solid #0088CC  !important;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #0088CC !important;
+}
+
+.sidebar .widget table tbody a {
+    color: #0088CC ;
+    border-color: #0088CC ;
+}
+.widget_tag_cloud a:hover {
+    background: #0088CC ;
+}
+.footer-sidebar .widget table tbody a { 
+	color: #0088CC ;
+    border-color: #0088CC ;
+}
+.widget_about a:hover {
+    color: #0088CC ;
+}
+textarea {
+	border: 1px solid #0088CC ;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+    border: 1px solid #0088CC ;
+}
+.blog-author-social a {
+    color: #0088CC ;
+}
+.paginations a:hover, .paginations a:focus, .paginations a.active, span.page-numbers.current {
+	background:#0088CC ;
+}
+a.page-numbers {
+    color: #0088CC ;
+}
+
+.textwidget a:hover {
+    color: #0088CC ;
+}
+
+.boxed-btn:hover {
+    color: #0088CC ;
+}
+.search-result .posts-navigation .nav-links a {
+    background: #0088CC ;
+}
+.search-result .posts-navigation .nav-links a:hover {
+    color: #0088CC  !important;
+}
+/*=========================================
+    Secondary Color
+=========================================*/
+/* Theme Reset css */
+button, input[type="button"]:hover, input[type="reset"]:hover {
+    background: #242424!important;
+}
+p {
+    color: #242424;
+}
+
+.section-header p {
+    color: #242424;
+}
+
+/* Main Menu*/
+.mean-container .mean-nav ul li a.mean-expand:hover {
+    background: #242424;
+}
+
+/* Features list*/
+.features-list-item h4 {
+    color: #242424;
+}
+
+.view-more:hover {
+    color: #242424;
+}
+
+.sorting-btn li a {
+    color: #242424;
+}
+
+.services-item {    
+    color: #242424;
+}
+
+.member-title {
+    color: #242424;
+}
+
+.single-testimonial {
+    background: #242424; 
+}
+
+#recent-blog .read-more-link {
+    color: #242424;    
+}
+
+.gallery-item figure:hover figcaption {
+    background: #242424;
+}
+
+#blog-content .post-title a {
+    color: #242424;
+}
+
+#blog-content ul.meta-info li {
+    color: #242424;
+}
+
+#blog-content ul.meta-info li a {
+    color: #242424;
+}
+
+.post-content .content {
+    color: #242424;
+}
+
+#blog-content .post-content .continue-reading {
+    color: #242424;
+}
+
+.single-blog-area .post-title {
+    color: #242424;
+}
+
+.single-blog-area ul.share-icon li a {
+    color: #242424;
+}
+
+.post-comment-area .comment-author a {
+    color: #242424;
+}
+
+.office h4 {
+    color: #242424;
+}
+
+.office ul li {
+    color: #242424;
+}
+
+#wrapper-404 .inner-content h1 {
+    color: #242424;
+}
+
+#wrapper-404 .inner-content p {
+    color: #242424;
+}
+
+/*Widget CSS */
+
+#footer-widgets,
+.widget-search input[type=button]:hover,
+form.search-form .search-submit:hover {
+    background: #242424;
+}
+
+
+.widget_search .search-form,
+.search-form input[type="search"]::-webkit-input-placeholder,
+.sidebar .widget-title,
+.widget_categories ul li a,
+.recent-post h6,
+ul.recent-meta-info li,
+ul.recent-meta-info li a,
+ul.tags li a,
+.widget-calender .widget-title .plus a,
+.weekdays li,
+.days li.disable,
+.days li {
+    color: #242424;
+
+}
+
+/* new */
+.sidebar .widget table caption { 
+    color: #242424; 
+}
+.sidebar .widget table td, .widget table th { 
+	color: #242424;
+}
+.sidebar .widget_archive ul li a {
+	color: #242424;
+}
+.sidebar .widget-title {
+	color: #242424;
+}
+.sidebar .widget_meta ul li a {
+	color: #242424;
+}
+.sidebar .widget_recent_entries ul li a {
+	color: #242424; 
+}
+.sidebar .widget_recent_comments ul li a {
+	color: #242424; 
+}
+.widget_categories ul li a {
+	color: #242424; 
+}
+.widget_tag_cloud a {
+    color: #242424;
+}
+.footer-sidebar .widget-title {
+	color: #242424; 
+}
+.footer-sidebar .widget table caption { 
+    color: #242424; 
+}
+.footer-sidebar .widget table th { 
+    color:#242424; 
+}
+.footer-sidebar .widget table td, .widget table th { 
+	color: #242424;
+} 
+.gallery-item .gallery-caption {
+    color: #242424;
+}
+.pagination a {
+    background: #242424;
+}

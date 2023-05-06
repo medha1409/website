@@ -1,0 +1,916 @@
+/*
+===============================================================
+    Footer Widgets CSS
+===============================================================
+*/
+
+#footer-widgets {
+    padding: 100px 0;
+    color: #fefefe;
+}
+
+#footer-widgets p {
+    color: #fefefe;
+}
+
+.footer-logo,
+#footer-widgets .widget-title {
+    /* margin-bottom: 40px; */
+}
+
+p.widget-text {
+    margin-bottom: 20px;
+}
+
+
+/*-----------------------------------
+    01. Widget About
+------------------------------------*/
+
+
+.widget_about a {
+    color: #fefefe;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+/*-----------------------------------
+    02. Widget Page List
+------------------------------------*/
+
+.widget_pages ul li {
+    padding-bottom: 12px;
+}
+
+.widget_pages ul li a {
+    color: #fff;
+    font-size: 16px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+
+/*-----------------------------------
+    03. Widget Recent Item
+------------------------------------*/
+
+.recent-item img {
+    border: 1px solid #fff;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+li.recent-item {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+li.recent-item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+/*-----------------------------------
+    04. Widget Contact & Social
+------------------------------------*/
+
+.widget_contact input {
+    box-shadow: inset 0px 0px 15px 0px rgba(53, 54, 60, 0.2);
+    border: 0;
+    height: 40px;
+    background: #fff;
+    padding: 15px;
+    width: 60%;
+    border-radius: 4px;
+}
+
+button.footer-subscribe.boxed-btn {
+    padding: 8px 16px;
+}
+
+ul.widget-social {
+    margin-top: 40px;
+}
+
+ul.widget-social li {
+    display: inline-block;
+}
+
+ul.widget-social li a {
+    padding-right: 15px;
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+/*
+=============================================
+ Blog Page Widgets 
+ ============================================
+ */
+
+.sidebar .widget {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+
+/*-----------------------------------
+    01. Widget Search
+------------------------------------*/
+
+.sidebar .widget_search .search-form {
+    padding: 20px 20px 30px;
+}
+
+.sidebar .search-form input[type="search"]::-webkit-input-placeholder {
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.sidebar .widget-newsletter input[type=email],
+.sidebar .widget_search input[type=search] {
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    padding: 10px 10px;
+    border: 0;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar .widget_search input[type=button],
+.sidebar .widget_search input[type=submit] {
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    padding: 12px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+	min-height: 51px;
+    transform: translateY(-5px);
+}
+.widget_search .search-submit {
+    position: unset !important;
+}
+
+/*-----------------------------------
+    02. Widget Category
+------------------------------------*/
+
+.sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #d3d6db;
+    padding: 30px 16px 10px;
+}
+
+.sidebar .widget_categories ul {
+    padding: 20px 20px 30px;
+}
+
+
+.sidebar .widget_categories ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar .widget_categories ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.sidebar .widget_categories ul li:last-child a {
+    margin-bottom: 0;
+}
+
+
+/*-----------------------------------
+    03. Widget Recent Post
+------------------------------------*/
+
+.recent-post {
+    padding: 20px 16px;
+}
+
+.recent-post img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.recent-post h6 {]
+    line-height: 24px;
+    word-spacing: 1;
+    margin-bottom: 10px;
+}
+
+
+.recent-post p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+ul.recent-meta-info li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+ul.recent-meta-info li a {
+    font-size: 12px;
+}
+
+
+/*-----------------------------------
+    04. Widget Tags
+------------------------------------*/
+
+.widget .tags {
+    padding: 30px 16px;
+}
+
+ul.tags li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.tags li a {
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+ul.tags li a:hover {
+    color: #f9f9f9;
+}
+
+
+/*-----------------------------------
+    05. Widget Calender
+------------------------------------*/
+
+.sidebar .widget_calender .widget-title li {
+    display: inline-block;
+}
+
+.sidebar .widget_calender .widget-title .plus {
+    float: right;
+}
+
+.sidebar .wp-calender {
+    padding: 30px 16px;
+}
+.sidebar .widget .calendar_wrap { background-color: #ffffff; border: 1px solid #eae7e4; padding: 5px; border-radius: 3px; }
+.sidebar .widget table { 
+    border-collapse: inherit;
+    border-spacing: 5px;
+    border: 0 none;
+    padding: 0px; 
+    margin: 0; 
+    line-height: 18px; 
+    text-align: center; 
+    table-layout: fixed; 
+    width: 100%; 
+}
+.sidebar .widget table caption { 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px; 
+  
+}
+.sidebar .widget table th { 
+    background:transparent; 
+    color:#747474; 
+    border: 0 none;
+    width: 11.6%;
+    font-size: 12px;
+    \: ;
+    font-weight: 500;
+    text-align: center;	
+}
+
+.sidebar .widget table td {
+    padding: 3px 9px;
+}
+
+.sidebar .widget table td, .widget table th { 
+    width: 11.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+} 
+.sidebar .widget table tbody a {
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: -8px!important;
+}
+.sidebar .widget table tbody a:hover, .widget table tbody a:focus { color: #e84c3d; }
+.widget table #next a, .widget table #prev a { font-weight: 600; }
+
+
+
+/* Calender Responsive*/
+@media screen and (max-width:920px) {
+    .weekdays li,
+    .days li {
+        width: 11.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li,
+    .days li {
+        width: 11.6%;
+    }
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li,
+    .days li {
+        width: 11.6%;
+    }
+}
+
+
+/*-----------------------------------
+    06. Widget Newsletter
+------------------------------------*/
+
+.widget .newsletter {
+    padding: 30px 16px;
+}
+
+.widget-newsletter input[type=email] {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.widget-newsletter .subscribe {
+    border: 1px solid;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px 16px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.widget-newsletter .subscribe:hover {
+    color: #fff;
+}
+/*-----------------------------------
+    07. Widget Archive
+------------------------------------*/
+
+.sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #d3d6db;
+    padding: 30px 16px 10px;
+}
+
+.sidebar .widget_archive ul {
+    padding: 20px 20px 30px;
+}
+
+
+.sidebar .widget_archive ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar .widget_archive ul li a:after {
+    font-family: FontAwesome !important;
+    speak: none;
+    font-style: normal;
+    content: "\f178";
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.sidebar .widget_archive ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.sidebar .widget_archive ul li:last-child a {
+    margin-bottom: 0;
+}
+.widget_archive select {
+    position: relative;
+    margin-bottom: 36px;
+}
+/*-----------------------------------
+    07. Widget Meta
+------------------------------------*/
+
+.sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #d3d6db;
+    padding: 30px 16px 10px;
+}
+
+.sidebar .widget_meta ul {
+    padding: 20px 20px 30px;
+}
+
+
+.sidebar .widget_meta ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar .widget_meta ul li a:after {
+    font-family: FontAwesome !important;
+    speak: none;
+    font-style: normal;
+    content: "\f178";
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.sidebar .widget_meta ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.sidebar .widget_meta ul li:last-child a {
+    margin-bottom: 0;
+}
+
+/*-----------------------------------
+    07. Widget Recent Posts
+------------------------------------*/
+
+.sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #d3d6db;
+    padding: 30px 16px 10px;
+}
+
+.sidebar .widget_recent_entries ul {
+    padding: 20px 20px 30px;
+}
+
+
+.sidebar .widget_recent_entries ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar .widget_recent_entries ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.sidebar .widget_recent_entries ul li:last-child a {
+    margin-bottom: 0;
+}
+/*-----------------------------------
+    08. Widget Recent Comments
+------------------------------------*/
+
+.sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #d3d6db;
+    padding: 30px 16px 10px;
+}
+
+.sidebar .widget_recent_comments ul {
+    padding: 20px 20px 30px;
+}
+
+
+.sidebar .widget_recent_comments ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar .widget_recent_comments ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.sidebar .widget_recent_comments ul li:last-child a {
+    margin-bottom: 0;
+}
+
+/*-----------------------------------
+    08. Widget Recent Category
+------------------------------------*/
+
+.sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #d3d6db;
+    padding: 30px 16px 10px;
+}
+
+.widget_categories ul {
+    padding: 20px 20px 30px;
+}
+
+
+.widget_categories ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.widget_categories ul li a:after {
+    font-family: FontAwesome !important;
+    speak: none;
+    font-style: normal;
+    content: "\f178";
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+    font-size: 12px;
+    line-height: 21px;
+}
+.widget_categories ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.widget_categories ul li:last-child a {
+    margin-bottom: 0;
+}
+/*-----------------------------------
+    09. Widget Tag Cloud
+------------------------------------*/
+div.tagcloud {
+    padding: 20px;
+}
+.widget_tag_cloud a {
+    display: -webkit-inline-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 14px!important;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.widget_tag_cloud a:hover {
+    color: #fff;
+}
+/*-----------------------------------
+    10. Widget Gallery
+------------------------------------*/
+.widget_media_gallery .gallery {
+    padding: 20px;
+}
+/*-----------------------------------
+    Footer Widget
+------------------------------------*/
+/*-----------------------------------
+    01. Widget Search
+------------------------------------*/
+.footer-sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px 16px 10px;
+}
+.footer-sidebar .widget_search .search-form {
+    padding: 20px 20px 30px;
+}
+
+.footer-sidebar .search-form input[type="search"]::-webkit-input-placeholder {
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.footer-sidebar .widget-newsletter input[type=email],
+.footer-sidebar .widget_search input[type=search] {
+    border-radius: 4px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    padding: 10px 10px;
+    border: 0;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-sidebar .widget_search input[type=button],
+.footer-sidebar .widget_search input[type=submit] {
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px rgba(7, 7, 6, 0.2);
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    padding: 12px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+	display:block;
+}
+/*-----------------------------------
+    02. Widget Category
+------------------------------------*/
+#footer-widgets ul li {
+    list-style: none;
+}
+
+.footer-sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px 16px 10px;
+}
+
+.footer-sidebar .widget_categories ul {
+    padding: 20px 20px 30px;
+	list-style:none;
+}
+
+
+.footer-sidebar .widget_categories ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+	color: #ffffff;
+}
+
+.footer-sidebar .widget_categories ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.footer-sidebar .widget_categories ul li:last-child a {
+    margin-bottom: 0;
+}
+/*-----------------------------------
+    03. Widget Recent Comments
+------------------------------------*/
+
+.footer-sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px 16px 10px;
+	color: #ffffff; 
+}
+
+.footer-sidebar .widget_recent_comments ul {
+    padding: 20px 20px 30px;
+}
+
+
+.footer-sidebar .widget_recent_comments ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+	color: #ffffff;
+}
+
+.footer-sidebar .widget_recent_comments ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.footer-sidebar .widget_recent_comments ul li:last-child a {
+    margin-bottom: 0;
+}
+/*-----------------------------------
+    04. footer Archive
+------------------------------------*/
+
+.footer-sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px 16px 10px;
+}
+
+.footer-sidebar .widget_archive ul {
+    padding: 20px 20px 30px;
+}
+
+
+.footer-sidebar .widget_archive ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+	color: #ffffff;
+}
+
+ .footer-sidebar .widget_archive ul li a:after {
+    font-family: FontAwesome !important;
+    speak: none;
+    font-style: normal;
+    content: "\f178";
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+    font-size: 12px;
+    line-height: 21px;
+	color: #ffffff;
+}
+
+.footer-sidebar .widget_archive ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.footer-sidebar .widget_archive ul li:last-child a {
+    margin-bottom: 0;
+}
+/*-----------------------------------
+    05. footer Recent Posts
+------------------------------------*/
+
+.footer-sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px 16px 10px;
+	color: #ffffff !important; 
+}
+
+.footer-sidebar .widget_recent_entries ul {
+    padding: 20px 20px 30px;
+}
+
+
+.footer-sidebar .widget_recent_entries ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+	color: #ffffff; 
+}
+
+.footer-sidebar .widget_recent_entries ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.widget_recent_entries ul li:last-child a {
+    margin-bottom: 0;
+}
+/*-----------------------------------
+    05. footer widget Calender
+------------------------------------*/
+
+.footer-sidebar .widget_calender .widget-title li {
+    display: inline-block;
+}
+
+.footer-sidebar .widget_calender .widget-title .plus {
+    float: right;
+}
+
+.footer-sidebar .wp-calender {
+    padding: 30px 16px;
+}
+.footer-sidebar .widget .calendar_wrap { background-color: #ffffff; border: 1px solid #eae7e4; padding: 5px; border-radius: 3px; }
+.sidebar .widget table { 
+    border-collapse: inherit;
+    border-spacing: 5px;
+    border: 0 none;
+    padding: 0px; 
+    margin: 0; 
+    line-height: 18px; 
+    text-align: center; 
+    table-layout: fixed; 
+    width: 100%; 
+}
+.footer-sidebar .widget table caption { 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px; 
+  
+}
+.footer-sidebar .widget table th { 
+    background:transparent; 
+    border: 0 none;
+    width: 11.6%;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;	
+}
+.footer-sidebar .widget table td { 
+    border: solid 1px #f2f2f2;
+    border-radius: 0;
+}
+.footer-sidebar .widget table td, .widget table th { 
+    width: 11.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+} 
+.footer-sidebar .widget table tbody a { 
+	padding: 5px;
+    border-radius: 50%;
+    border: 1px solid;
+	margin-left: -7px;
+}
+.footer-sidebar .widget table tbody a:hover, .widget table tbody a:focus { color: #e84c3d; }
+.widget table #next a, .widget table #prev a { font-weight: 600; }
+/*-----------------------------------
+    06. Widget Meta
+------------------------------------*/
+
+.footer-sidebar .widget_meta ul {
+    padding: 20px 20px 30px;
+}
+
+
+.footer-sidebar .widget_meta ul li a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+	color: #ffffff;
+}
+
+.footer-sidebar .widget_meta ul li a:after {
+    font-family: FontAwesome !important;
+    speak: none;
+    font-style: normal;
+    content: "\f178";
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.footer-sidebar .widget_meta ul li a i {
+    float: right;
+    padding-top: 6px;
+}
+
+.footer-sidebar .widget_meta ul li:last-child a {
+    margin-bottom: 0;
+}
+.sidebar ul li {
+    list-style: none;
+}
+.textwidget a {
+    color: #fefefe;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.widget select {
+    width: 100%;
+}

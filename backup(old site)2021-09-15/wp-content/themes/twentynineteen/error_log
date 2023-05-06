@@ -1,0 +1,4 @@
+[01-Jun-2020 12:04:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/laughiu3/public_html/medhagupta/wp-content/themes/twentynineteen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/laughiu3/public_html/medhagupta/wp-content/themes/twentynineteen/functions.php on line 16
